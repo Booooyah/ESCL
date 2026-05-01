@@ -42,17 +42,14 @@ The **Empirical Spectral Cohomology Learning (ESCL)** framework elevates the con
 
 ## ⚙️ Installation & Dependencies
 This codebase is engineered to run on standard multi-core workstations without requiring GPU acceleration. The underlying thread concurrency is locked to prevent memory explosion during large-scale sparse matrix eigensolving.
-
-Bash
-# Clone the repository
-
 ```
+# Clone the repository
 git clone [https://github.com/anonymous/ESCL.git](https://github.com/anonymous/ESCL.git)
 cd ESCL
-```
 
 # Install required dependencies
 pip install numpy scipy scikit-learn pandas matplotlib numba umap-learn h5py
+```
 
 ## 📊 Data Availability (Empirical Benchmarks)
 To comply with licensing and repository size limits, the raw empirical datasets used in realexp1 to realexp4 are not bundled within this repository. Reviewers and researchers wishing to reproduce the real-world analyses must download the public datasets and place them into the data/ directory.
