@@ -52,9 +52,9 @@ pip install numpy scipy scikit-learn pandas matplotlib numba umap-learn h5py
 ```
 
 ## 📊 Data Availability (Empirical Benchmarks)
-To comply with licensing and repository size limits, the raw empirical datasets used in realexp1 to realexp4 are not bundled within this repository. Reviewers and researchers wishing to reproduce the real-world analyses must download the public datasets and place them into the data/ directory.
+To comply with licensing and repository size limits, the raw empirical datasets used in \text{realexp1} to \text{realexp4} are not bundled within this repository. Reviewers and researchers wishing to reproduce the real-world analyses must download the public datasets and place them into the data/ directory.
 
-Cyclooctane Conformational Space (realexp1):
+1. Cyclooctane Conformational Space (realexp1):
 
 Download pointsCycloOctane.mat from the standard TDA benchmarks (Brown et al., 2008).
 
