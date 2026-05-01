@@ -45,8 +45,11 @@ This codebase is engineered to run on standard multi-core workstations without r
 
 Bash
 # Clone the repository
+
+```
 git clone [https://github.com/anonymous/ESCL.git](https://github.com/anonymous/ESCL.git)
 cd ESCL
+```
 
 # Install required dependencies
 pip install numpy scipy scikit-learn pandas matplotlib numba umap-learn h5py
