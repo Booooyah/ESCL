@@ -38,6 +38,7 @@ The **Empirical Spectral Cohomology Learning (ESCL)** framework elevates the con
 ├── data/                           # Directory for empirical datasets (See instructions below)
 ├── Results/                        # Auto-generated cache for .npz computational results
 └── Figs/                           # Auto-generated directory for publication plots (.pdf)
+```
 
 ## ⚙️ Installation & Dependencies
 This codebase is engineered to run on standard multi-core workstations without requiring GPU acceleration. The underlying thread concurrency is locked to prevent memory explosion during large-scale sparse matrix eigensolving.
