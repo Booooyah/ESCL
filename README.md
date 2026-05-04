@@ -5,13 +5,13 @@
 
 This repository contains the official Python implementation for the manuscript: **"Robust Non-parametric Inference of Manifold Topology via Empirical Spectral Cohomology Learning."**
 
-## 📖 Overview
+## Overview
 
 Inferring macroscopic topological invariants (e.g., orientability) from finite, high-dimensional empirical data is notoriously difficult due to "metric leakage"—the continuous accumulation of local rotational errors that induces false topological hallucinations. 
 
 The **Empirical Spectral Cohomology Learning (ESCL)** framework elevates the continuous $O(d)$ gauge to a discrete $\mathbb{Z}_2$ orientation sheaf. This discrete quantization acts as an algebraic shock absorber, establishing a strict topological mass gap. By integrating a discrete Connection Cheeger Inequality with the BBP phase transition from Random Matrix Theory, ESCL constructs a dimension-invariant 2D Topological Phase Space, providing exact asymptotic size control and optimal statistical power against severe geometric gasification.
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 .
@@ -41,7 +41,7 @@ The **Empirical Spectral Cohomology Learning (ESCL)** framework elevates the con
 └── Figs/                           # Auto-generated directory for publication plots (.pdf)
 ```
 
-## ⚙️ Installation & Dependencies
+## Installation & Dependencies
 
 This codebase is engineered to run on standard multi-core workstations without requiring GPU acceleration. The underlying thread concurrency is locked to prevent memory explosion during large-scale sparse matrix eigensolving.
 
@@ -54,7 +54,7 @@ cd ESCL
 pip install numpy scipy scikit-learn pandas matplotlib numba umap-learn h5py
 ```
 
-## 📊 Data Availability (Empirical Benchmarks)
+## Data Availability (Empirical Benchmarks)
 
 To comply with licensing and repository size limits, the raw empirical datasets used in `realexp1` to `realexp4` are **not** bundled within this repository. Reviewers and researchers wishing to reproduce the real-world analyses must download the public datasets and place them into the `data/` directory.
 
@@ -70,7 +70,7 @@ To comply with licensing and repository size limits, the raw empirical datasets 
 
 *(Note: The Natural Image Patches dataset in `realexp2` is generated natively via `scipy.datasets.face` and requires no external download).*
 
-## 🚀 Running the Experiments
+## Running the Experiments
 
 All scripts are configured for one-click execution. They will automatically perform the data-driven optimal bandwidth search, execute the MCMC null-bath and node-subsampling routines, save raw data to `Results/`, and export publication-ready PDFs to `Figs/`.
 
@@ -88,13 +88,13 @@ python realexp/realexp1_cyclooctane.py
 python realexp/realexp2_natural_image.py
 ```
 
-### 🎨 Fast Rendering Mode
+### Fast Rendering Mode
 If you have already executed the computational engines and generated the `.npz` files in `Results/`, you can bypass the heavy eigensolver computations and instantly re-render the PDF figures using the `--plot-only` flag:
 ```bash
 python simexp/simexp4_scatter.py --plot-only
 ```
 
-## 📝 Citation & Academic Integrity
+## Citation & Academic Integrity
 
 If you utilize the ESCL framework in your research, please cite our manuscript. 
 
