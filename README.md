@@ -100,5 +100,5 @@ If you utilize the ESCL framework in your research, please cite our manuscript.
 
 **Note on `exp_utils.py`:** The biological spike-binning and spatial preprocessing routines located in `realexp/exp_utils.py` are structurally ported from the official MATLAB codebase of Gardner et al. (2022). All scientific credits for these specific preprocessing heuristics belong to the original authors.
 
-## 📄 License
+## License
 This project is licensed under the MIT License.
