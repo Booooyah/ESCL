@@ -1,0 +1,13 @@
+﻿sigma,geometry,odm_graph,n_designs,designs_ESCL_more,designs_equal,designs_ODM_more,min_escl_minus_odm_pp,median_escl_minus_odm_pp,max_escl_minus_odm_pp,cloud_ESCL_only,cloud_ODM_only
+0.3,klein,mutual,10,0,10,0,0.0,0.0,0.0,0,0
+0.3,klein,union,10,0,10,0,0.0,0.0,0.0,0,0
+0.3,torus,mutual,10,1,7,2,-12.5,0.0,12.5,1,2
+0.3,torus,union,10,1,5,4,-12.5,0.0,12.5,1,4
+0.5,klein,mutual,10,10,0,0,100.0,100.0,100.0,80,0
+0.5,klein,union,10,10,0,0,12.5,31.25,50.0,24,0
+0.5,torus,mutual,10,0,10,0,0.0,0.0,0.0,0,0
+0.5,torus,union,10,0,6,4,-12.5,0.0,0.0,0,4
+0.6,klein,mutual,10,0,10,0,0.0,0.0,0.0,0,0
+0.6,klein,union,10,0,0,10,-87.5,-75.0,-50.0,0,59
+0.6,torus,mutual,10,0,7,3,-12.5,0.0,0.0,0,3
+0.6,torus,union,10,0,7,3,-12.5,0.0,0.0,0,3

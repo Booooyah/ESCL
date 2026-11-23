@@ -1,0 +1,24 @@
+{
+  "rng_seed": 40271133,
+  "n": 1500,
+  "p": 24,
+  "d": 2,
+  "K": 40,
+  "B": 60,
+  "sigmas": [
+    0.3,
+    0.5,
+    0.6
+  ],
+  "independent_clean_designs_per_geometry": 10,
+  "draws_per_design_and_sigma": 8,
+  "independent_torus_calibration_clouds_per_sigma": 99,
+  "odm_calibration_level": 0.05,
+  "evaluation_clouds": 480,
+  "calibration_clouds": 297,
+  "clean_design_holdout_and_pairing_verified": true,
+  "calibration_note": "Each score uses a fresh independently sampled Torus and noise. Rank references are shared across all evaluation cases at the same known sigma and are separate for the two ODM graph scores.",
+  "evaluation_note": "A clean design is reused over the three noise levels and over the eight draws per level. All methods use the same noisy point coordinates within each case. Summarize repeatability by clean design.",
+  "numerical_rules": "Use the unchanged ESCL and ODM settings from Results/odm_pilot/compare.py.",
+  "elapsed_seconds": 367.13
+}
